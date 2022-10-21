@@ -1,0 +1,57 @@
+.top-pagina{
+    padding-bottom: 10rem;
+}
+
+.top-pagina ul {
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    margin: 10px;
+}
+
+.top-pagina li {
+    font-size: 25px;
+    list-style: none;
+}
+
+.top-pagina li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.top-pagina li a:hover {
+    background-color: #6e1aa7;
+    color: black;
+}
+
+.sobre-mim{
+    display: grid;
+    grid-template-areas: 'icon text';
+    gap: 10px;
+    background-color: #6e1aa7;
+    padding: 5px;
+    margin: 25px;
+}
+
+.sobre-mim div{
+    padding: 15px;
+    margin: 10px;
+    background-color: white;
+}
+
+.sobre-mim .text h1{
+    margin: auto auto 10px;
+    font-size: 40px;
+    color: #6e1aa7;
+}
+
+.sobre-mim .text p{
+    font-size: 15px;
+    width: 80%;
+    color: black;
+    margin: auto auto 25px;
+}
+
+.sobre-mim .icon{
+    margin: 20px auto;
+}
